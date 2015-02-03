@@ -1,0 +1,581 @@
+<head>
+    <title>Horn Timer Options</title>
+    <script type="text/javascript" src="options.js"></script>
+    <script type="text/javascript" src="jquery.js"></script>
+    <style type="text/css">
+        * {
+            margin:0;
+            padding:0;
+        }
+        body {
+            font-family:Arial;
+            line-height:20px;
+        }
+        .container {
+            width: 600px;
+            margin: 0 auto;
+            padding:20px;
+        }
+        td {
+            margin: 4px;
+            padding:10px 6px;
+            border-bottom: 1px dashed #ccc;
+            font-size: 14px;
+        }
+        select {
+            padding:4px;
+        }
+        a {
+            text-decoration: underline;
+        }
+        .center button {
+            padding:4px 8px;
+            font-family:Arial;
+            font-size: 15px;
+            line-height:20px;
+        }
+        #status {
+            font-weight: 700;
+            font-size: 16px;
+            text-align:center;
+        }
+        .header {
+            text-align:center;
+        }
+        .header h1 {
+            font-weight: 700;
+            font-size: 24px;
+            padding-bottom: 10px;
+        }
+        .hidden {
+			display:none;
+        }
+        .h2 {
+			font-size: 17px;
+			text-align:center;
+        }
+        .trapComponentSelect {
+			width: 225px;
+        }
+    </style>
+    <!--###################################################################################-->
+</head>
+<body>
+    <div class="container">
+        <table cellpadding="0" cellspacing="0" width="100%">
+            <tr>
+                <td colspan="3">
+                    <div class="header">
+                        	<h1>Horn Timer Options</h1>
+
+                    </div>
+                </td>
+            </tr>
+            <!--###################################################################################-->
+            <tr>
+                <td colspan='2'>Sound the Horn when I hit OK
+                    <br /><small>Works with Nick Alston's HornTracker</small>
+
+                </td>
+                <td colspan='1'>
+                    <input type="checkbox" id="sound_horn">
+                </td>
+                
+            </tr>
+            
+            <tr id="seconds_before_row" />
+            
+            <tr id="unobtrusive_mode_row">
+
+            </tr>
+            
+            <tr>
+                <td colspan='2'>Add timer to tab titles</td>
+                <td colspan='1'>
+                    <input type="checkbox" id="add_timer">
+                </td>
+                <td />
+            </tr>
+
+            <tr>
+                <td colspan='2'>Display icon timer in</td>
+                <td colspan='1'>
+                    <form id="time_display">
+                        <input type="radio" id="time_display_min" name="time_display" /> Minutes
+                        <br />
+                        <input type="radio" id="time_display_s" name="time_display" /> Seconds</form>
+                </td>
+                <td />
+            </tr>
+
+            <!--###################################################################################-->
+            <tr>
+                <td colspan='1'>	<b>Event</b>
+
+                </td>
+                <td colspan='1'><b>Popup</b>
+                </td>
+                <td colspan='1'><b>Sound</b>
+                </td>
+            </tr>
+            <tr>
+                <td colspan='1'>Horn Ready</td>
+                <td colspan='1'>
+                    <input type="checkbox" id="sth_box">
+                </td>
+                <td colspan='1'>
+                    <input type="checkbox" id="sth_snd">
+                </td>
+            </tr>
+            <tr>
+                <td colspan='1'>1 min before Trap Check</td>
+                <td colspan='1'>
+                    <input type="checkbox" id="tcw_box">
+                </td>
+                <td colspan='1'>
+                    <input type="checkbox" id="tcw_snd">
+                </td>
+            </tr>
+            <tr>
+                <td colspan='1'>Trap Check</td>
+                <td colspan='1'>
+                    <input type="checkbox" id="tca_box">
+                </td>
+                <td colspan='1'>
+                    <input type="checkbox" id="tca_snd">
+                </td>
+            </tr>
+            <tr>
+                <td colspan='1'>
+                    <input id="bait_left" type="text" size="3"> or fewer pieces of bait left</td>
+                <td colspan='1'>
+                    <input type="checkbox" id="bait_left_popup">
+                </td>
+                <td colspan='1'>
+                    <input type="checkbox" id="bait_left_sound">
+                </td>
+            </tr>
+            <tr>
+                <td colspan='2'>Sound clip
+                </td>
+
+                <td colspan='1'>
+                    <select id="soundclip">
+                        <option value="beep">Beep</option>
+                        <option value="bugleShort">Bugle (short)</option>
+                        <option value="bugleLong">Bugle (long)</option>
+                        <option value="chime">Chime</option>
+                    </select>
+                </td>
+
+            </tr>
+            
+            <tr>
+                <td colspan='2'>Volume
+                </td>
+
+                <td colspan='1'>
+                    <select id="volume">
+                        <option value="0">Mute</option>
+                        <option value="0.01">Soft</option>
+                        <option value="0.1">Medium</option>
+                        <option value="1">Loud</option>
+                    </select>
+                    <button type="button" style="width:40;height:20" id="try_it">Try it</button>
+                </td>
+            </tr>
+
+            <tr>
+            	<td class='h2' colspan='3'>
+            		<b>UI Modifications</b>
+          		</td>
+            </tr>
+			
+            
+            <tr>
+                <td colspan='2'>Change "Begins In" to "Begins At" on Tournament Listings page</td>
+                <td colspan='1'>
+                    <input type="checkbox" id="tourney_page">
+                </td>
+                <td />
+            </tr>
+            
+            <tr>
+                <td colspan='2'>	
+                	Use suggestions in trap selector<br />
+                	<small>Suggestions can be found <a target= '_blank' href	='https://docs.google.com/spreadsheet/pub?key=0AimzE7TF33IHdGpDbVhfZndubm5KYUF2S3F5YV9uQVE&single=true&gid=0&output=html'>here</a></small>
+                </td>
+                <td colspan='1'>
+                    <input type="checkbox" id="useSuggestionsCheckbox">
+                </td>
+            </tr>
+            
+            <tr>
+                <td colspan='2'>	
+                	Show estimated catch rates in Trap Effectiveness Meter<br />
+                </td>
+                <td colspan='1'>
+                    <input type="checkbox" id="showCREcheckbox">
+                </td>
+            </tr>
+            
+            <!--tr>
+            	<td colspan='3'>
+            		<b>Favourite trap components</b><br />
+          		  	<small>These are pinned to the top of trap selector</small>
+          		</td>
+            </tr>
+            
+            <tr>
+                <td colspan='1'>
+                	Favourite base
+                </td>
+                <td colspan='2'>
+                    <select id="favBase" class='trapComponentSelect'>
+						<option>None</option>
+						<option>Aqua Base</option>
+						<option>Bacon Base</option>
+						<option>Bamboozler Base</option>
+						<option>Birthday Cake Base</option>
+						<option>Bronze Tournament Base</option>
+						<option>Candy Cane Base</option>
+						<option>Carrot Birthday Cake Base</option>
+						<option>Cheesecake Base</option>
+						<option>Chocolate Birthday Cake Base</option>
+						<option>Claw Shot Base</option>
+						<option>Crushed Birthday Cake Base</option>
+						<option>Deep Freeze Base</option>
+						<option>Dehydration Base</option>
+						<option>Dragon Jade Base</option>
+						<option>Eerie Base</option>
+						<option>Eerier Base</option>
+						<option>Explosive Base</option>
+						<option>Fan Base</option>
+						<option>Firecracker Base</option>
+						<option>Gingerbread Base</option>
+						<option>Golden Tournament Base</option>
+						<option>Hearthstone Base</option>
+						<option>Jade Base</option>
+						<option>Magma Base</option>
+						<option>Magnet Base</option>
+						<option>Molten Shrapnel Base</option>
+						<option>Monolith Base</option>
+						<option>Papyrus Base</option>
+						<option>Polar Base</option>
+						<option>Remote Detonator Base</option>
+						<option>Rift Base</option>
+						<option>Runic Base</option>
+						<option>Seasonal Base</option>
+						<option>Silver Tournament Base</option>
+						<option>Snake Jade Base</option>
+						<option>Soiled Base</option>
+						<option>Spellbook Base</option>
+						<option>Spiked Base</option>
+						<option>Stone Base</option>
+						<option>Tiki Base</option>
+						<option>Tribal Base</option>
+						<option>Wooden Base</option>
+						<option>Wooden Base with Target</option>                    
+					</select>
+                </td>
+            </tr>
+            
+            <tr id='favWeaponRow'>
+                <td colspan='1'>
+                	Favourite weapon
+                </td>
+                <td colspan='2'>
+                    <select id="favWeapon" class='trapComponentSelect'>
+						<option>None</option>
+						<option>2010 Blastoff Trap</option>
+						<option>2012 Big Boom Trap</option>
+						<option>500 Pound Spiked Crusher</option>
+						<option>Ambrosial Portal</option>
+						<option>Ambush</option>
+						<option>Ancient Box Trap</option>
+						<option>Ancient Gauntlet</option>
+						<option>Ancient Spear Gun</option>
+						<option>Arcane Blast Trap</option>
+						<option>ACRONYM</option>
+						<option>Bandit Deflector</option>
+						<option>Birthday Candle Kaboom</option>
+						<option>Birthday Party Pinata Bonanza</option>
+						<option>Blackstone Pass Trap</option>
+						<option>Bottomless Grave</option>
+						<option>Brain Extractor</option>
+						<option>Cackle Lantern Trap</option>
+						<option>Christmas Cracker Trap</option>
+						<option>Chrome DeathBot</option>
+						<option>Chrome DrillBot</option>
+						<option>Chrome MonstroBot</option>
+						<option>Chrome Nannybot</option>
+						<option>Chrome RhinoBot</option>
+						<option>Chrome Tacky Glue Trap</option>
+						<option>Clockapult of Time</option>
+						<option>Clockwork Portal Trap</option>
+						<option>Digby DrillBot</option>
+						<option>Dimensional Chest Trap</option>
+						<option>Double Diamond Adventure</option>
+						<option>Engine Doubler</option>
+						<option>Enraged RhinoBot</option>
+						<option>Explosive Toboggan Ride</option>
+						<option>Giant Speaker</option>
+						<option>Gingerbread House Surprise</option>
+						<option>Gorgon Trap</option>
+						<option>Grand Arcanum Trap</option>
+						<option>Harpoon Gun</option>
+						<option>Heat Bath</option>
+						<option>High Tension Spring</option>
+						<option>HitGrab Horsey</option>
+						<option>HitGrab Rainbow Rockin' Horse</option>
+						<option>HitGrab Rockin' Horse</option>
+						<option>Horrific Venus Mouse Trap</option>
+						<option>Ice Maiden</option>
+						<option>Isle Idol Trap</option>
+						<option>Isle Idol Hydroplane Skin</option>
+						<option>Isle Idol Stakeshooter Skin</option>
+						<option>Kraken Chaos</option>
+						<option>Maniacal Brain Extractor</option>
+						<option>Mouse DeathBot</option>
+						<option>Mouse Mary O'Nette</option>
+						<option>Mouse Rocketine</option>
+						<option>Mouse Trebuchet</option>
+						<option>Mutated Venus Mouse Trap</option>
+						<option>Mystic Pawn Pincher</option>
+						<option>Nannybot</option>
+						<option>Net Cannon</option>
+						<option>Nutcracker Nuisance Trap</option>
+						<option>NVMRC Forcefield Trap</option>
+						<option>Oasis Water Node Trap</option>
+						<option>Obelisk of Incineration</option>
+						<option>Obelisk of Slumber</option>
+						<option>Obvious Ambush Trap</option>
+						<option>Onyx Mallet</option>
+						<option>PartyBot</option>
+						<option>Phantasmic Oasis Trap</option>
+						<option>Pneumatic Tube Trap</option>
+						<option>Pumpkin Pummeler</option>
+						<option>Reaper's Perch</option>
+						<option>Rewers Riposte</option>
+						<option>RhinoBot</option>
+						<option>S.A.M. F.E.D. DN-5</option>
+						<option>S.L.A.C.</option>
+						<option>S.L.A.C. II</option>
+						<option>Sandstorm MonstroBot</option>
+						<option>Sandtail Sentinel</option>
+						<option>Shrink Ray Trap</option>
+						<option>Sinister Portal</option>
+						<option>Snow Barrage</option>
+						<option>Snowglobe Trap</option>
+						<option>Soul Catcher</option>
+						<option>Soul Harvester</option>
+						<option>Sphynx Wrath</option>
+						<option>Steam Laser Mk. I</option>
+						<option>Steam Laser Mk. II</option>
+						<option>Steam Laser Mk. III</option>
+						<option>Steam Laser Mk. II (Broken!)</option>
+						<option>Supply Grabber</option>
+						<option>Swiss Army Mouse Trap</option>
+						<option>Tacky Glue Trap</option>
+						<option>Tarannosaurus Rex Trap</option>
+						<option>Technic Pawn Pincher</option>
+						<option>Terrifying Spider Trap</option>
+						<option>Thorned Venus Mouse Trap</option>
+						<option>Ultra MegaMouser MechaBot Trap</option>
+						<option>Venus Mouse Trap</option>
+						<option>Warpath Thrasher</option>
+						<option>Wrapped Gift Trap</option>
+						<option>Zugzwang's First Move</option>
+						<option>Zugzwang's Last Move</option>
+						<option>Zurreal's Folly</option>
+                    </select>
+                </td>
+            </tr>
+            
+            <tr>
+                <td colspan='1'>
+                	Favourite charm
+                </td>
+                <td colspan='2'>
+                    <select id="favTrinket" class='trapComponentSelect'>
+						<option>None</option>
+						<option>Amplifier Charm</option>
+						<option>Ancient Charm</option>
+						<option>Antiskele Charm</option>
+						<option>Artisan Charm</option>
+						<option>Athlete Charm</option>
+						<option>Attraction Charm</option>
+						<option>Black Powder Charm</option>
+						<option>Brain Charm</option>						
+						<option>Bravery Charm</option>
+						<option>Cackle Charm</option>
+						<option>Cactus Charm</option>
+						<option>Champion Charm</option>
+						<option>Chrome Charm</option>
+						<option>Clarity Charm</option>
+						<option>Dark Chocolate Charm</option>
+						<option>Derr Power Charm</option>
+						<option>Door Guard Charm</option>
+						<option>Double Sponge Charm</option>
+						<option>Dragonbane Charm</option>
+						<option>Dragonbreath Charm</option>
+						<option>Dreaded Charm</option>
+						<option>Dusty Coal Charm</option>
+						<option>Eggscavator Charge Charm</option>
+						<option>Eggstra Charm</option>
+						<option>Elub Power Charm</option>
+						<option>Empowered Anchor Charm</option>
+						<option>Firecracker Charm</option>
+						<option>First Ever Charm</option>
+						<option>Flamebane Charm</option>
+						<option>Freshness Charm</option>
+						<option>Greasy Glob Charm</option>
+						<option>Growth Charm</option>
+						<option>Grub Salt Charm</option>
+						<option>Grub Scent Charm</option>
+						<option>Grubling Bonanza Charm</option>
+						<option>Grubling Chow Charm</option>
+						<option>Luck Charm</option>
+						<option>Lucky Power Charm</option>
+						<option>Lucky Rabbit Charm</option>
+						<option>Magmatic Crystal Charm</option>
+						<option>Mining Charm</option>
+						<option>Mobile Charm</option>
+						<option>Monger Charm</option>
+						<option>Nanny Charm</option>
+						<option>Nerg Power Charm</option>
+						<option>Nitropop Charm</option>
+						<option>Party Charm</option>
+						<option>Power Charm</option>
+						<option>Prospector's Charm</option>
+						<option>Red Double Sponge Charm</option>
+						<option>Red Sponge Charm</option>
+						<option>Roof Rack Charm</option>
+						<option>Rook Crumble Charm</option>
+						<option>Rotten Charm</option>
+						<option>Safeguard Charm</option>
+						<option>Scholar Charm</option>
+						<option>Shine Charm</option>
+						<option>Scientist's Charm</option>
+						<option>Searcher Charm</option>
+						<option>Shamrock Charm</option>
+						<option>Shattering Charm</option>
+						<option>Sheriff's Badge Charm</option>
+						<option>Snakebite Charm</option>
+						<option>Softserve Charm</option>
+						<option>Spellbook Charm</option>
+						<option>Spooky Charm</option>
+						<option>Sponge Charm</option>
+						<option>Sticky Charm</option>
+						<option>Super Luck Charm</option>
+						<option>Super Power Charm</option>
+						<option>Super Rotten Charm</option>
+						<option>Super Salt Charm</option>
+						<option>Super Warpath Archer Charm</option>
+						<option>Super Warpath Cavalry Charm</option>
+						<option>Super Warpath Commander's Charm</option>
+						<option>Super Warpath Mage Charm</option>
+						<option>Super Warpath Scout Charm</option>
+						<option>Super Warpath Warrior Charm</option>
+						<option>Supply Schedule Charm</option>
+						<option>Tarnished Charm</option>
+						<option>Ultimate Charm</option>
+						<option>Ultimate Luck Charm</option>
+						<option>Ultimate Power Charm</option>
+						<option>Uncharged Scholar Charm</option>
+						<option>Valentine Charm</option>
+						<option>Warpath Archer Charm</option>
+						<option>Warpath Cavalry Charm</option>
+						<option>Warpath Commander's Charm</option>
+						<option>Warpath Mage Charm</option>
+						<option>Warpath Scout Charm</option>
+						<option>Warpath Warrior Charm</option>
+						<option>Wealth Charm</option>
+						<option>Wild Growth Charm</option>
+						<option>Winter Charm</option>
+						<option>Winter Screw Charm</option>
+						<option>Winter Spring Charm</option>
+						<option>Winter Wood Charm</option>
+						<option>Wax Charm</option>
+						<option>Yellow Double Sponge Charm</option>
+						<option>Yellow Sponge Charm</option>
+					</select>
+                </td>
+            </tr>
+            
+            <tr>
+                <td colspan='1'>
+                	Favourite bait
+                </td>
+                <td colspan='2'>
+                    <select id="favCheese" class='trapComponentSelect'>
+						<option>None</option>
+						<option>Ancient</option>
+						<option>Brie</option>
+						<option>Candy Corn</option>
+						<option>Checkmate</option>
+						<option>Cheddar</option>
+						<option>Cherry</option>
+						<option>Combat</option>
+						<option>Creamy Havarti</option>
+						<option>Crunchy</option>
+						<option>Crunchy Havarti</option>
+						<option>Cupcake Colby</option>
+						<option>Dewthief Camembert</option>
+						<option>Duskshade Camembert</option>
+						<option>Festive Feta</option>
+						<option>Gauntlet Cheese Tier 2</option>
+						<option>Gauntlet Cheese Tier 3</option>
+						<option>Gauntlet Cheese Tier 4</option>
+						<option>Gauntlet Cheese Tier 5</option>
+						<option>Gauntlet Cheese Tier 6</option>
+						<option>Gauntlet Cheese Tier 7</option>
+						<option>Gauntlet Cheese Tier 8</option>
+						<option>Ghoulgonzola</option>
+						<option>Gilded</option>
+						<option>Gingerbread</option>
+						<option>Glutter</option>
+						<option>Gnarled</option>
+						<option>Gouda</option>
+						<option>Graveblossom Camembert</option>
+						<option>Gumbo</option>
+						<option>Inferno Havarti</option>
+						<option>Limelight</option>
+						<option>Lunaria Camembert</option>
+						<option>Magical Havarti</option>
+						<option>Maki</option>
+						<option>Marble</option>
+						<option>Marshmallow Monterey</option>
+						<option>Moon</option>
+						<option>Mozzarella</option>
+						<option>Nutmeg</option>
+						<option>Onyx Gorgonzola</option>
+						<option>Pungent Havarti</option>
+						<option>Radioactive Blue</option>
+						<option>Rockforth</option>
+						<option>Rumble</option>
+						<option>Runic</option>
+						<option>Runny</option>
+						<option>Seasoned Gouda</option>
+						<option>Shell</option>
+						<option>Spicy Havarti</option>
+						<option>SUPER|brie+</option>
+						<option>Susheese</option>
+						<option>Sweet Havarti</option>
+						<option>Swiss</option>
+						<option>Undead Emmental</option>
+						<option>Vanilla Stilton</option>
+						<option>Vengeful Vanilla Stilton</option>
+						<option>White Cheddar</option>
+						<option>Wicked Gnarly</option>
+                    </select>
+                </td>
+            </tr-->
+            
+            <tr id="status" />
+        </table>
+    </div>
+    <div id="clock" />
+</body>
+
+</html>

@@ -1,0 +1,221 @@
+Region,Location,Sublocation,Trap Component,Suggestion,LLL name
+Gnawnia,Meadow,*,Bait,Brie,brie_cheese
+Gnawnia,Meadow,*,Bait,Gouda,gouda_cheese
+Gnawnia,Meadow,*,Bait,Swiss,swiss_cheese
+Gnawnia,Town of Gnawnia,*,Bait,Brie,brie_cheese
+Gnawnia,Town of Gnawnia,*,Bait,Gouda,gouda_cheese
+Gnawnia,Town of Gnawnia,*,Bait,Gilded,gilded_cheese
+Gnawnia,Haunted Terrortories,*,Weapon,Grand Arcanum Trap,grand_arcanum_weapon
+Gnawnia,Haunted Terrortories,*,Weapon,Clockwork Portal Trap,clockwork_portal_weapon
+Gnawnia,Haunted Terrortories,*,Weapon,ACRONYM,acronym_weapon
+Gnawnia,Haunted Terrortories,*,Weapon,Maniacal Brain Extractor,brain_extractor_upgrade_weapon
+Gnawnia,Haunted Terrortories,*,Weapon,Terrifying Spider Trap,terrifying_spider_weapon
+Gnawnia,Haunted Terrortories,*,Base,Rift,rift_base
+Gnawnia,Haunted Terrortories,*,Base,Snake Jade,snake_jade_base
+Gnawnia,Haunted Terrortories,*,Base,Golden Tournament,champions_gold_base
+Gnawnia,Haunted Terrortories,*,Charm,Spooky,spooky_trinket
+Gnawnia,Haunted Terrortories,*,Charm,Brain,brain_trinket
+Gnawnia,Haunted Terrortories,*,Bait,Candy Corn,treat_cheese
+Gnawnia,Haunted Terrortories,*,Bait,Ghoulgonzola,trick_cheese
+Gnawnia,Haunted Terrortories,*,Bait,Brie,brie_cheese
+Gnawnia,Windmill,*,Bait,Brie,brie_cheese
+Gnawnia,Windmill,*,Bait,Swiss,swiss_cheese
+Gnawnia,Windmill,*,Bait,Gouda,gouda_cheese
+Gnawnia,Harbour,*,Bait,Brie,brie_cheese
+Gnawnia,Harbour,*,Bait,Swiss,swiss_cheese
+Gnawnia,Harbour,*,Bait,Gouda,gouda_cheese
+Gnawnia,Mountain,*,Charm,Prospector's,mining_trinket
+Gnawnia,Mountain,*,Bait,Brie,brie_cheese
+Gnawnia,Mountain,*,Bait,Swiss,swiss_cheese
+Gnawnia,Mountain,*,Bait,Gouda,gouda_cheese
+Gnawnia,Slushy Shoreline,*,Bait,Gouda,gouda_cheese
+Gnawnia,Slushy Shoreline,*,Charm,Softserve,softserve_trinket
+Valour,King's Arms,*,Bait,Gilded,gilded_cheese
+Valour,Tournament Hall,*,Bait,Brie Cheese,brie_cheese
+Valour,King's Gauntlet,*,Weapon,Ancient Gauntlet,ancient_gauntlet_weapon
+Valour,King's Gauntlet,*,Bait,Gauntlet Cheese Tier 8,gauntlet_cheese_8
+Valour,King's Gauntlet,*,Bait,Gauntlet Cheese Tier 7,gauntlet_cheese_7
+Valour,King's Gauntlet,*,Bait,Gauntlet Cheese Tier 6,gauntlet_cheese_6
+Valour,King's Gauntlet,*,Bait,Gauntlet Cheese Tier 5,gauntlet_cheese_5
+Valour,King's Gauntlet,*,Bait,Gauntlet Cheese Tier 4,gauntlet_cheese_4
+Valour,King's Gauntlet,*,Bait,Gauntlet Cheese Tier 3,gauntlet_cheese_3
+Valour,King's Gauntlet,*,Bait,Gauntlet Cheese Tier 2,gauntlet_cheese_2
+Valour,King's Gauntlet,*,Bait,Brie,brie_cheese
+Whisker Woods,Calm Clearing,*,Bait,Brie,brie_cheese
+Whisker Woods,Calm Clearing,*,Bait,Gouda,gouda_cheese
+Whisker Woods,Calm Clearing,*,Bait,Cherry,cherry_cheese
+Whisker Woods,Great Gnarled Tree,*,Bait,Gnarled,gnarled_cheese
+Whisker Woods,Great Gnarled Tree,*,Bait,Brie,brie_cheese
+Whisker Woods,Great Gnarled Tree,*,Bait,Gouda,gouda_cheese
+Whisker Woods,Lagoon,*,Bait,Wicked Gnarly,wicked_gnarly_cheese
+Whisker Woods,Lagoon,*,Bait,Gnarled,gnarled_cheese
+Varmint Valley,Claw Shot City,*,Weapon,S.L.A.C. II,slac_ii_sling_weapon
+Varmint Valley,Claw Shot City,*,Weapon,S.L.A.C.,slac_spring_weapon
+Varmint Valley,Claw Shot City,*,Base,Claw Shot Base,claw_shot_base
+Varmint Valley,Claw Shot City,*,Charm,Prospector's,mining_trinket
+Varmint Valley,Claw Shot City,*,Charm,Cactus,cactus_trinket
+Varmint Valley,Claw Shot City,*,Charm,Sheriff's Badge Charm,sheriff_badge_trinket
+Varmint Valley,Claw Shot City,*,Bait,Gouda,gouda_cheese
+Varmint Valley,Gnawnian Express Station,*,Bait,Gouda,gouda_cheese
+Varmint Valley,Gnawnian Express Station,*,Base,Rift,rift_base
+Varmint Valley,Gnawnian Express Station,*,Weapon,S.L.A.C. II,slac_ii_sling_weapon
+Varmint Valley,Gnawnian Express Station,Supply Depot,Weapon,Supply Grabber,supply_grabber_weapon
+Varmint Valley,Gnawnian Express Station,Supply Depot,Charm,Supply Schedule,book_warmer_trinket
+Varmint Valley,Gnawnian Express Station,Raider River,Weapon,Bandit Deflector,bandit_deflector_weapon
+Varmint Valley,Gnawnian Express Station,Raider River,Charm,Roof Rack,trouble_area_roof_trinket
+Varmint Valley,Gnawnian Express Station,Raider River,Charm,Door Guard,trouble_area_door_trinket
+Varmint Valley,Gnawnian Express Station,Raider River,Charm,Greasy Glob,trouble_area_rails_trinket
+Varmint Valley,Gnawnian Express Station,Daredevil Canyon,Weapon,Engine Doubler,engine_doubler_weapon
+Varmint Valley,Gnawnian Express Station,Daredevil Canyon,Charm,Magmatic Crystal,train_magmatic_crystal_trinket
+Varmint Valley,Gnawnian Express Station,Daredevil Canyon,Charm,Black Powder,train_black_powder_trinket
+Varmint Valley,Gnawnian Express Station,Daredevil Canyon,Charm,Dusty Coal,train_coal_trinket
+Burroughs,Laboratory,*,Charm,Scientist's Charm,lab_trinket
+Burroughs,Laboratory,*,Bait,Radioactive Blue,radioactive_blue_cheese
+Burroughs,Laboratory,*,Bait,Brie Cheese,brie_cheese
+Burroughs,Mousoleum,*,Base,Golden Tournament,champions_gold_base
+Burroughs,Mousoleum,*,Weapon,Clockwork Portal Trap,clockwork_portal_weapon
+Burroughs,Mousoleum,*,Bait,Radioactive Blue,radioactive_blue_cheese
+Burroughs,Mousoleum,*,Bait,Moon,moon_cheese
+Burroughs,Mousoleum,*,Bait,Undead Emmental,undead_emmental_cheese
+Burroughs,Town of Digby,*,Weapon,Chrome Monstrobot,chrome_monstrobot_weapon
+Burroughs,Town of Digby,*,Base,Rift,rift_base
+Burroughs,Town of Digby,*,Charm,Mining Charm,drilling_trinket
+Burroughs,Town of Digby,*,Bait,Limelight,limelight_cheese
+Burroughs,Town of Digby,*,Bait,Brie Cheese,brie_cheese
+Burroughs,Bazaar,*,Bait,Gilded Cheese,gilded_cheese
+Burroughs,Bazaar,*,Bait,Brie Cheese,brie_cheese
+Furoma,Training Grounds,*,Bait,Brie Cheese,brie_cheese
+Furoma,Dojo,*,Bait,Maki,maki_cheese
+Furoma,Dojo,*,Bait,Brie Cheese,brie_cheese
+Furoma,Meditation Room,*,Bait,Combat,combat_cheese
+Furoma,Meditation Room,*,Bait,Glutter,glutter_cheese
+Furoma,Meditation Room,*,Bait,Susheese,susheese_cheese
+Furoma,Pinnacle Chamber,*,Charm,Wealth Charm,gold_bonus_trinket
+Furoma,Pinnacle Chamber,*,Bait,Rumble,rumble_cheese
+Furoma,Pinnacle Chamber,*,Bait,Onyx Gorgonzola,onyx_gorgonzola_cheese
+Bristle Woods,Catacombs,*,Weapon,Grand Arcanum Trap,grand_arcanum_weapon
+Bristle Woods,Catacombs,*,Weapon,Clockwork Portal Trap,clockwork_portal_weapon
+Bristle Woods,Catacombs,*,Base,Snake Jade Base,snake_jade_base
+Bristle Woods,Catacombs,*,Charm,Antiskele Charm,anti_skele_trinket
+Bristle Woods,Catacombs,*,Bait,Radioactive Blue,radioactive_blue_cheese
+Bristle Woods,Catacombs,*,Bait,Ancient,ancient_cheese
+Bristle Woods,Catacombs,*,Bait,Moon,moon_cheese
+Bristle Woods,Catacombs,*,Bait,Undead Emmental,undead_emmental_cheese
+Bristle Woods,Forbidden Grove,*,Weapon,Grand Arcanum Trap,grand_arcanum_weapon
+Bristle Woods,Forbidden Grove,*,Base,Runic Base,runic_base
+Bristle Woods,Forbidden Grove,*,Bait,Ancient,ancient_cheese
+Bristle Woods,Acolyte Realm,*,Weapon,Tarannosaurus Rex Trap,tarannosaurus_rex_weapon
+Bristle Woods,Acolyte Realm,*,Weapon,Ancient Box Trap,ancient_box_trap_weapon
+Bristle Woods,Acolyte Realm,*,Bait,Runic,runic_cheese
+Rodentia,S.S. Huntington III,*,Bait,Gouda Cheese,gouda_cheese
+Rodentia,Seasonal Garden,*,Bait,Gouda Cheese,gouda_cheese
+Rodentia,Seasonal Garden,*,Charm,Amplifier Charm,amplifier_trinket
+Rodentia,Seasonal Garden,*,Base,Seasonal Base,seasonal_base
+Rodentia,Zugzwang's Tower,*,Weapon,Technic Pawn Pincher,technic_low_weapon
+Rodentia,Zugzwang's Tower,*,Weapon,Mystic Pawn Pincher,mystic_low_weapon
+Rodentia,Zugzwang's Tower,*,Charm,Rook Crumble Charm,rook_crumble_trinket
+Rodentia,Zugzwang's Tower,*,Charm,Uncharged Scholar Charm,library_boss_uncharged_trinket
+Rodentia,Zugzwang's Tower,*,Bait,Gouda Cheese,gouda_cheese
+Rodentia,Zugzwang's Tower,*,Bait,Checkmate,checkmate_cheese
+Rodentia,Crystal Library,*,Weapon,Zurreal's Folly,zurreals_folly_weapon
+Rodentia,Crystal Library,*,Charm,Scholar Charm,library_boss_trinket
+Rodentia,Crystal Library,*,Bait,Gouda,gouda_cheese
+Rodentia,Iceberg,*,Weapon,Steam Laser Mk. III,steam_laser_mk_iii_weapon
+Rodentia,Iceberg,*,Charm,Sticky Charm,sticky_trinket
+Rodentia,Iceberg,*,Charm,Wax Charm,wax_trinket
+Rodentia,Iceberg,*,Bait,Gouda,gouda_cheese
+Rodentia,Iceberg,Treacherous Tunnels,Base,Magnet,magnet_base
+Rodentia,Iceberg,Brutal Bulwark,Base,Spiked,spiked_base
+Rodentia,Iceberg,Bombing Run,Base,Remote Detonator,remote_detonator_base
+Rodentia,Iceberg,The Mad Depths,Base,Hearthstone,hearthstone_base
+Rodentia,Iceberg,Icewing's Lair,Base,Deep Freeze Base,deep_freeze_base
+Rodentia,Iceberg,Hidden Depths,Base,Deep Freeze Base,deep_freeze_base
+Rodentia,Iceberg,The Deep Lair,Base,Deep Freeze Base,deep_freeze_base
+Tribal Isles,Cape Clawed,*,Base,Tiki Base,tiki_base
+Tribal Isles,Cape Clawed,*,Bait,Crunchy,crunchy_cheese
+Tribal Isles,Cape Clawed,*,Bait,Gumbo,gumbo_cheese
+Tribal Isles,Cape Clawed,*,Bait,Shell,shell_cheese
+Tribal Isles,Elub Shore,*,Base,Rift Base,rift_base
+Tribal Isles,Elub Shore,*,Base,Snake Jade Base,snake_jade_base
+Tribal Isles,Elub Shore,*,Base,Tiki Base,tiki_base
+Tribal Isles,Elub Shore,*,Charm,Elub Power Charm,elub_power_trinket
+Tribal Isles,Elub Shore,*,Charm,Ancient Charm,ancient_trinket
+Tribal Isles,Elub Shore,*,Bait,Shell,shell_cheese
+Tribal Isles,Elub Shore,*,Bait,Gouda,gouda_cheese
+Tribal Isles,Nerg Plains,*,Base,Rift Base,rift_base
+Tribal Isles,Nerg Plains,*,Base,Snake Jade Base,snake_jade_base
+Tribal Isles,Nerg Plains,*,Base,Tiki Base,tiki_base
+Tribal Isles,Nerg Plains,*,Charm,Nerg Power Charm,nerg_power_trinket
+Tribal Isles,Nerg Plains,*,Charm,Ancient Charm,ancient_trinket
+Tribal Isles,Nerg Plains,*,Bait,Gumbo,gumbo_cheese
+Tribal Isles,Nerg Plains,*,Bait,Gouda,gouda_cheese
+Tribal Isles,Derr Dunes,*,Base,Rift Base,rift_base
+Tribal Isles,Derr Dunes,*,Base,Snake Jade Base,snake_jade_base
+Tribal Isles,Derr Dunes,*,Base,Tiki Base,tiki_base
+Tribal Isles,Derr Dunes,*,Charm,Derr Power Charm,derr_power_trinket
+Tribal Isles,Derr Dunes,*,Charm,Ancient Charm,ancient_trinket
+Tribal Isles,Derr Dunes,*,Bait,Crunchy,crunchy_cheese
+Tribal Isles,Derr Dunes,*,Bait,Gouda,gouda_cheese
+Tribal Isles,Jungle of Dread,*,Weapon,Cackle Lantern Trap,cackle_lantern_weapon
+Tribal Isles,Jungle of Dread,*,Charm,Dreaded Charm,dreaded_trinket
+Tribal Isles,Jungle of Dread,*,Charm,Cackle Charm,cackle_trinket
+Tribal Isles,Jungle of Dread,*,Bait,Creamy Havarti,creamy_havarti_cheese
+Tribal Isles,Jungle of Dread,*,Bait,Crunchy Havarti,crunchy_havarti_cheese
+Tribal Isles,Jungle of Dread,*,Bait,Magical Havarti,magical_havarti_cheese
+Tribal Isles,Jungle of Dread,*,Bait,Pungent Havarti,pungent_havarti_cheese
+Tribal Isles,Jungle of Dread,*,Bait,Spicy Havarti,spicy_havarti_cheese
+Tribal Isles,Jungle of Dread,*,Bait,Sweet Havarti,sweet_havarti_cheese
+Tribal Isles,Jungle of Dread,*,Bait,Gouda,gouda_cheese
+Tribal Isles,Dracano,*,Weapon,Ice Maiden,ice_maiden_weapon
+Tribal Isles,Dracano,*,Base,Golden Tournament,champions_gold_base
+Tribal Isles,Dracano,*,Base,Rift,rift_base
+Tribal Isles,Dracano,*,Base,Snake Jade,snake_jade_base
+Tribal Isles,Dracano,*,Charm,Dragonbane,dragonbane_trinket
+Tribal Isles,Dracano,*,Bait,Inferno Havarti,inferno_havarti_cheese
+Tribal Isles,Balack's Cove,*,Weapon,Nutcracker Nuisance Trap,nutcracker_winter_weapon
+Tribal Isles,Balack's Cove,*,Weapon,Tarannosaurus Rex Trap,tarannosaurus_rex_weapon
+Tribal Isles,Balack's Cove,*,Charm,Empowered Anchor Charm,anchor_trinket
+Tribal Isles,Balack's Cove,*,Bait,Vengeful Vanilla Stilton,vengeful_vanilla_stilton_cheese
+Tribal Isles,Balack's Cove,*,Bait,Vanilla Stilton,vanilla_stilton_cheese
+Sandtail Desert,Fiery Warpath,*,Weapon,Chrome Monstrobot,chrome_monstrobot_weapon
+Sandtail Desert,Fiery Warpath,*,Charm,Flamebane Charm,flamebane_trinket
+Sandtail Desert,Fiery Warpath,*,Charm,Monger Charm,monger_trinket
+Sandtail Desert,Fiery Warpath,*,Bait,Gouda,gouda_cheese
+Sandtail Desert,Muridae Market,*,Charm,Artisan,artisan_trinket
+Sandtail Desert,Muridae Market,*,Bait,Gouda Cheese,gouda_cheese
+Sandtail Desert,Living Garden,*,Charm,Double Sponge Charm,double_sponge_trinket
+Sandtail Desert,Living Garden,*,Charm,Sponge Charm,sponge_trinket
+Sandtail Desert,Living Garden,*,Bait,Gouda Cheese,gouda_cheese
+Sandtail Desert,Living Garden,*,Bait,Duskshade Camembert,duskshade_camembert_cheese
+Sandtail Desert,Twisted Garden,*,Base,Rift Base,rift_base
+Sandtail Desert,Twisted Garden,*,Weapon,Phantasmic Oasis Trap,phantasmic_oasis_weapon
+Sandtail Desert,Twisted Garden,*,Charm,Shattering Charm,shattering_trinket
+Sandtail Desert,Twisted Garden,*,Charm,Red Double Sponge Charm,red_double_sponge_trinket
+Sandtail Desert,Twisted Garden,*,Charm,Yellow Double Sponge Charm,yellow_double_sponge_trinket
+Sandtail Desert,Twisted Garden,*,Charm,Red Sponge Charm,red_sponge_trinket
+Sandtail Desert,Twisted Garden,*,Charm,Yellow Sponge Charm,yellow_sponge_trinket
+Sandtail Desert,Twisted Garden,*,Charm,Ancient Charm,ancient_trinket
+Sandtail Desert,Twisted Garden,*,Bait,Duskshade Camembert,duskshade_camembert_cheese
+Sandtail Desert,Twisted Garden,*,Bait,Lunaria Camembert,lunaria_camembert_cheese
+Sandtail Desert,Lost City,*,Charm,Searcher Charm,searcher_trinket
+Sandtail Desert,Lost City,*,Charm,Safeguard Charm,safeguard_trinket
+Sandtail Desert,Lost City,*,Bait,Dewthief Camembert,dewthief_camembert_cheese
+Sandtail Desert,Cursed City,*,Charm,Shattering Charm,shattering_trinket
+Sandtail Desert,Cursed City,*,Charm,Bravery Charm,bravery_trinket
+Sandtail Desert,Cursed City,*,Charm,Shine Charm,shine_trinket
+Sandtail Desert,Cursed City,*,Charm,Clarity Charm,clarity_trinket
+Sandtail Desert,Cursed City,*,Charm,Safeguard Charm,safeguard_trinket
+Sandtail Desert,Cursed City,*,Bait,Graveblossom Camembert,graveblossom_camembert_cheese
+Sandtail Desert,Sand Dunes,*,Charm,Grubling Chow Charm,grubling_chow_trinket
+Sandtail Desert,Sand Dunes,*,Charm,Grubling Bonanza Charm,grubling_bonanza_trinket
+Sandtail Desert,Sand Dunes,*,Bait,Dewthief Camembert,dewthief_camembert_cheese
+Sandtail Desert,Sand Crypts,*,Charm,Shattering Charm,shattering_trinket
+Sandtail Desert,Sand Crypts,*,Charm,Super Salt Charm,super_salt_trinket
+Sandtail Desert,Sand Crypts,*,Charm,Grub Salt Charm,grub_salt_trinket
+Sandtail Desert,Sand Crypts,*,Charm,Grub Scent Charm,grub_scent_trinket
+Sandtail Desert,Sand Crypts,*,Bait,Graveblossom Camembert,graveblossom_camembert_cheese
+Rift Plane,Gnawnia Rift,*,Weapon,Crystal Tower,crystal_tower_weapon
+Rift Plane,Gnawnia Rift,*,Base,Rift Base,rift_base
+Rift Plane,Gnawnia Rift,*,Bait,Brie String Cheese,brie_string_cheese
+Rift Plane,Gnawnia Rift,*,Bait,Riftiago Cheese,riftiago_cheese
+Rift Plane,Gnawnia Rift,*,Bait,Resonator Cheese,gnawnia_boss_cheese
